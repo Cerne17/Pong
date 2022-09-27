@@ -98,6 +98,10 @@ while True:
         if event.type == QUIT:
             pygame.quit()
             exit()
+        if event.type == KEYDOWN:
+            if event.key == K_r:
+                player_1_points = 0
+                player_2_points = 0
     
     '''PADDLES MOVEMENT'''
 
